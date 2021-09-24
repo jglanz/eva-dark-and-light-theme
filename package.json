@@ -1,0 +1,68 @@
+{
+    "name": "eva-theme-new",
+    "displayName": "Eva Theme New",
+    "description": "A comfortable and semantic theme.",
+    "version": "1.7.5",
+    "publisher": "jglanz",
+    "license": "SEE LICENSE IN<LICENSE.md>",
+    "icon": "eva.png",
+    "homepage": "https://github.com/fisheva/Eva-Theme",
+    "bugs": {
+        "url": "https://github.com/fisheva/Eva-Theme/issues"
+    },
+    "engines": {
+		"vscode": "*"
+	},
+    "extensionKind": [
+		"ui",
+		"workspace"
+	],
+    "categories": ["Themes", "Other"],
+    "capabilities": {
+        "virtualWorkspaces": true
+    },
+    "galleryBanner": {
+        "color": "#EBEEF5",
+        "theme": "light"
+    },
+    "contributes": {
+        "themes": [{
+            "label": "Eva Dark + Light Editor Bold",
+            "uiTheme": "vs-dark",
+            "path": "./themes/Eva-Dark-Light-Editor-Bold.json"
+        },    {
+            "label": "Eva Dark",
+            "uiTheme": "vs-dark",
+            "path": "./themes/Eva-Dark.json"
+        }, {
+            "label": "Eva Dark Bold",
+            "uiTheme": "vs-dark",
+            "path": "./themes/Eva-Dark-Bold.json"
+        },{
+            "label": "Eva Dark Italic",
+            "uiTheme": "vs-dark",
+            "path": "./themes/Eva-Dark-Italic.json"
+        }, {
+            "label": "Eva Light",
+            "uiTheme": "vs",
+            "path": "./themes/Eva-Light.json"
+        }, {
+            "label": "Eva Light Bold",
+            "uiTheme": "vs",
+            "path": "./themes/Eva-Light-Bold.json"
+        }, {
+            "label": "Eva Light Italic",
+            "uiTheme": "vs",
+            "path": "./themes/Eva-Light-Italic.json"
+        }]
+    },
+    "keywords": ["eva", "dark", "light", "theme", "vscode"],
+    "scripts": {
+        "changelog": "conventional-changelog -p angular -i CHANGELOG.md -w"
+    },
+    "__metadata": {
+        "id": "7637ef9c-f2ab-4f04-b01f-18f39c657167",
+        "publisherDisplayName": "jglanz",
+        "publisherId": "7637ef9c-f2ab-4f04-b01f-18f39c657167"
+    }
+}
