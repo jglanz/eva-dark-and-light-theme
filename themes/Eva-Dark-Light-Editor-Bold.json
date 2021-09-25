@@ -3,7 +3,7 @@
   "type": "dark",
   "$schema": "vscode://schemas/color-theme",
   "colors": {
-    "editor.background": "#f3d7d7b6",
+    "editor.background": "#f3dcdc",
     "editorGutter.background": "#f5e7e7",
     "panelSectionHeader.foreground": "#FFF",
     "activityBar.activeBackground": "#282c34",
@@ -65,12 +65,13 @@
     "editor.foldBackground": "#598DEF21",
     "editor.foreground": "#5D5D5F",
     "editor.hoverHighlightBackground": "#CFD2D98C",
-    "editor.lineHighlightBackground": "#E3E6ED",
+    "editor.selectionForeground": "#8b8b9b",
+    "editor.lineHighlightBackground": "#e9457c",
     "editor.lineHighlightBorder": "#E3E6ED00",
     "editor.rangeHighlightBackground": "#E3E6ED",
-    "editor.selectionBackground": "#0065FF3F",
-    "editor.selectionHighlightBackground": "#00BEC459",
-    "editor.selectionHighlightBorder": "#00BEC400",
+    "editor.selectionBackground": "#f8b119fb",
+    "editor.selectionHighlightBackground": "#526bf8de",
+    "editor.selectionHighlightBorder": "#423c96ef",
     "editor.snippetFinalTabstopHighlightBackground": "#CFD2D98C",
     "editor.snippetFinalTabstopHighlightBorder": "#BDBDBE",
     "editor.snippetTabstopHighlightBackground": "#CFD2D98C",
@@ -82,7 +83,7 @@
     "editorBracketMatch.background": "#FC835762",
     "editorBracketMatch.border": "#FC835700",
     "editorCodeLens.foreground": "#BDBDBE",
-    "editorCursor.background": "#FFFFFF",
+    "editorCursor.background": "#070707",
     "editorCursor.foreground": "#FC8357",
     "editorError.foreground": "#EC0000",
     "editorGroup.border": "#CED1D7",
@@ -439,7 +440,7 @@
       "name": "module模块",
       "scope": "entity.name.type.module,entity.name.package",
       "settings": {
-        "fontStyle": "",
+        "fontStyle": "italic bold",
         "foreground": "#E06C75"
       }
     },
@@ -447,7 +448,7 @@
       "name": "Variable变量",
       "scope": "variable.other, support.variable,meta.definition.variable,variable.other.object,variable.other.readwrite, entity.name.type.enum,meta.method.body,entity.name.variable,variable.other.object.property.cs,meta.block.c,source,source.c,source.cpp,source.ruby,source.go,meta.class-struct-block,source.dart,source.python,meta.item-access.python,meta.function-call.arguments.python,meta.item-access.arguments.python, variable.parameter.keyframe-list.css, meta.property-value.css, meta.property-value.scss, entity.name.tag.custom, entity.name.function.scss, source.css.less, variable, support.function.builtin.python,meta.function-call.arguments.python support.function.builtin.python, meta.function-call.c, entity.name.function.preprocessor, meta.parens",
       "settings": {
-        "fontStyle": "",
+        "fontStyle": "italic bold",
         "foreground": "#B0B7C3"
       }
     },
@@ -607,7 +608,7 @@
       "name": "typeof",
       "scope": "keyword.operator.expression.typeof,keyword.other.typeof",
       "settings": {
-        "fontStyle": "",
+        "fontStyle": "italic bold",
         "foreground": "#FF6AB3"
       }
     },
@@ -751,7 +752,7 @@
       "name": "in of",
       "scope": "keyword.operator.expression.in,keyword.operator.expression.of",
       "settings": {
-        "fontStyle": "bold",
+        "fontStyle": "italic bold",
         "foreground": "#CF68E1"
       }
     },
@@ -759,7 +760,7 @@
       "name": "Keyword Control,Using",
       "scope": "keyword.control,keyword.other.using,keyword.preprocessor.elif,keyword.preprocessor.if,keyword.preprocessor.else,keyword.preprocessor.endif, keyword.control.directive, punctuation.separator.hash, keyword.package, keyword.control.flow,keyword.other.special-method.ruby, keyword.input, keyword.type.graphql,keyword.cmake, keyword.control.rust, keyword.other.rust, keyword.control.default, keyword.control.export, keyword.control.directive punctuation.definition.directive, keyword.other.where, keyword.other.forall, keyword.other.deriving, keyword.other.qualified, keyword.other.hiding, keyword.other.in",
       "settings": {
-        "fontStyle": "bold",
+        "fontStyle": "italic bold",
         "foreground": "#CF68E1"
       }
     },
@@ -767,7 +768,7 @@
       "name": "CSS from to, js from",
       "scope": "entity.other.keyframe-offset, keyword.control.import, keyword.other.import,keyword.import, keyword.control.from, keyword.control.directive.include",
       "settings": {
-        "fontStyle": "bold",
+        "fontStyle": "italic bold",
         "foreground": "#A78CFA"
       }
     },
