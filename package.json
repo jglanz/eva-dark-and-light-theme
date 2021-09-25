@@ -2,11 +2,14 @@
     "name": "eva-dark-and-light-theme",
     "displayName": "Eva Dark & Light",
     "description": "Eva Dark Bold w/Light Editor Theme",
-    "version": "1.7.5",
+    "version": "1.0.0",
     "publisher": "jglanz",
     "license": "SEE LICENSE IN<LICENSE.md>",
     "icon": "eva.png",
     "homepage": "https://github.com/jglanz/eva-dark-and-light-theme",
+    "repository": {
+        "url": "https://github.com/jglanz/eva-dark-and-light-theme"
+    },
     "bugs": {
         "url": "https://github.com/jglanz/eva-dark-and-light-theme/issues"
     },
